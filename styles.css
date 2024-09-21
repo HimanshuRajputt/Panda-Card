@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+box-sizing: content-box;
+align-items: center;
+padding: 25%;
+}
+
+h2{
+    font-size: 35px;   
+}
+
+.card{
+    width: 55%;
+    gap: 10px;
+    height: 45%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(22, 16, 16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+ .container{
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+.container img{
+    margin-top: 5px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+} 
+ 
+.rating span{
+    color: gold;
+    font-size: 1.46rem;
+
+}
+ 
+.panda:hover{
+    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmilvGSPFvizWQvt6qi-DT7DicIdf7JeSuZ3kzy5vnzcIpNKTWxrltoQmc-M4QjSpUlDA&usqp=CAU');
+    width: 80%;
+    margin-top: 20px; 
+    height: 150px;
+    object-fit: cover;
+    transform: scale(1.1);
+    
+}
+
+.container h3{
+    color: green;
+    font-weight: bold;
+    font-size: 21px;
+}
